@@ -1,0 +1,139 @@
+@media only screen and (max-width:800px) {
+    /* START HEADER */
+    .header {
+        /* font-size: 2vw; */
+        padding: 15px 25px;
+        flex-direction: column;
+        position: relative;
+    }
+    .navbar-toogle {
+        display: flex !important;
+        z-index: 0;
+        align-items: center;
+        flex-direction: initial;
+        cursor: pointer;
+        position: absolute;
+        padding: 10px;
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .logo {
+        margin: 0px;
+    }
+    #logo-zunder {
+        width: 20%;
+        height: auto;
+        padding-top: 10px;
+    }
+    .nav-bar {
+        background-color: #ececec;
+        flex-direction: column;
+    }
+    .left-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-bar-sub, .nav-bar-sub-aboutus {
+        margin: 10px;
+    }
+    .dropdown-content {
+        padding: 20px 0px;
+        width: max-content;
+    }
+    .dropdown-content-sub a {
+        width: max-content;
+    }
+    .register-button {
+        position: absolute;
+        padding-left: 55%;
+        padding-top: 3.2%;
+    }
+    .button a {
+        padding-top: 15%;
+        font-size: 5vw;
+    }
+    #viewbox-navbar-toogle {
+        width: 6%;
+        height: auto;
+        padding-top: 1%;
+    }
+    .nav-bar-sub-aboutus {
+        min-width: 100px;
+        height: 10px;
+    }
+    #drop-arrow {
+        width: 6px;
+        height: auto;
+        padding-left: 2px;
+    }
+    .dropdown-content {
+        width: 100px;
+    }
+    /* END HEADER */
+    .header2 {
+        height: 250px;
+    }
+    .header_bg {
+        width: 100%;
+        height: 250px;
+        top: 0%;
+    }
+    .header_text {
+        font-size: 32px;
+        /* margin-top: 50px; */
+        padding-top: 100px;
+    }
+    .aboutus {
+        flex-direction: column;
+    }
+
+    .motto{
+        font-size: 24px;
+    }
+
+    .kiri p{
+        padding-right: 0%;
+        font-size: 16px;
+    }
+    .kiri hr{
+        width: 150px;
+    }
+
+    .kanan img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .kanan{
+        width: 100%;
+        height: 100%;
+    }
+
+    .teamprofile{
+        margin-top: 15px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    .teamprofile_title{
+        font-size: 25px;
+    }
+
+    .profile_text{
+        font-size: 22px;
+    }
+
+    .one img{
+        width: 175px;
+        height: auto;
+    }
+
+    .footer{
+        font-size: 14px;
+    }
+
+}

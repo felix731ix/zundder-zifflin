@@ -1,0 +1,280 @@
+/* START HEADER */
+body {
+    bottom: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-toogle {
+    display: none;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 15px 50px;
+    background-color: white;
+    width: 100%;
+    position: fixed !important;
+    z-index: 1;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    top: 0%;
+}
+
+.logo {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-menu {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+.nav-bar-sub a {
+    padding: 0px 10px;
+    color: #045cb4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-bar-sub a:hover {
+    color: #4ba0f0;
+    text-decoration: none;
+}
+
+#drop-arrow {
+    width: 14px;
+    height: auto;
+    padding-left: 5px;
+}
+
+.nav-bar-sub-aboutus {
+    padding: 0px 10px;
+    position: relative;
+    display: flex;
+}
+
+.btnDrop {
+    text-decoration: none;
+    color: #045cb4;
+}
+
+.nav-bar-sub-aboutus:hover .btnDrop {
+    text-decoration: none;
+    color: #4ba0f0;
+}
+
+.dropdown-content {
+    opacity: 0%;
+    position: absolute;
+    width: max-content;
+    padding: 30px 0px;
+    z-index: 1;
+    transform: translateY(-10%);
+    transition: 0.5s;
+}
+
+.dropdown-content-sub {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.nav-bar-sub-aboutus:hover .dropdown-content {
+    display: flex;
+    transform: translateY(0%);
+    transition: 0.5;
+    opacity: 100%;
+}
+
+.dropdown-content-sub a {
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    color: #045cb4;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.dropdown-content-sub a:hover {
+    color: #4ba0f0;
+}
+
+.register-button {
+    width: 100px;
+    height: auto;
+}
+
+#button-register {
+    background-color: #045cb4;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.5s;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+#button-register:hover {
+    background-color: white;
+    transition: 0.8ms;
+    background-color: #1b88ee;
+    transition-duration: 0.5s;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* END HEADER */
+
+.header2 {
+    margin-top: 4.5%;
+    background-image: url("../Assets/About Us/back-office-group.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.header_bg {
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 100%;
+    height: 300px;
+}
+
+.header_text {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 130px !important;
+}
+
+.content {
+    padding:50px 5%;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 30px;
+    color: #045cb4;
+}
+
+.aboutus {
+    /* padding-top: 5%; */
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 5%; */
+    /* height: 450px; */
+    align-items: center;
+}
+
+.kiri {
+    align-items: center;
+}
+
+.kiri hr{
+    height: 5px;
+    width: 190px;
+    background-color:#045cb4;
+    margin: 0px !important;
+    border-style: none;
+}
+
+.kiri p {
+    font-family: 'Poppins', sans-serif;
+    justify-content: justify;
+    text-align: justify;
+    color: #045cb4;
+    font-size: 20px;
+    padding-right: 30%;
+    align-items: center;
+    align-items: center;
+}
+
+.kanan {
+    box-shadow: 0 0 black, 0 0 black, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 450px;
+}
+
+.kanan img {
+    width: 800px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.teamprofile {
+    background-color: #045cb4;
+}
+
+.teamprofile_title {
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one img {
+    border: white solid 2px;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile_text{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.profile_text_sub{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: -5%;
+    margin-bottom: 25%;
+}
+
+.footer {
+    color: #045cb4;
+    border-top: 3px solid #005db6;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}

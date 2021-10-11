@@ -1,0 +1,98 @@
+@media only screen and (max-width:800px) {
+    .header {
+        /* font-size: 2vw; */
+        padding: 15px 25px;
+        flex-direction: column;
+        position: relative;
+    }
+    .navbar-toogle {
+        display: flex !important;
+        z-index: 0;
+        align-items: center;
+        flex-direction: initial;
+        cursor: pointer;
+        position: absolute;
+        padding: 10px;
+        transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .logo {
+        margin: 0px;
+    }
+    #logo-zunder {
+        width: 20%;
+        height: auto;
+        padding-top: 10px;
+    }
+    .nav-bar {
+        background-color: #ececec;
+        flex-direction: column;
+    }
+    .left-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-bar-sub, .nav-bar-sub-aboutus {
+        margin: 10px;
+    }
+    .dropdown-content {
+        padding: 20px 0px;
+        width: max-content;
+    }
+    .dropdown-content-sub a {
+        width: max-content;
+    }
+    .register-button {
+        position: absolute;
+        padding-left: 55%;
+        padding-top: 3.2%;
+    }
+    .button a {
+        padding-top: 15%;
+        font-size: 5vw;
+    }
+    #viewbox-navbar-toogle {
+        width: 6%;
+        height: auto;
+        padding-top: 1%;
+    }
+    .nav-bar-sub-aboutus {
+        min-width: 100px;
+        height: 10px;
+    }
+    #drop-arrow {
+        width: 6px;
+        height: auto;
+        padding-left: 2px;
+    }
+    .dropdown-content {
+        width: 100px;
+    }
+    /* END HEADER */
+    .logo {
+        margin: 0px;
+    }
+    #logo-zunder {
+        width: 16% !important;
+        height: auto;
+        padding-top: 10px;
+        margin-left: 25px;
+    }
+    .image-regis {
+        display: none;
+    }
+    .register-content {
+        padding-top: 10%;
+        background-image: none;
+    }
+    .register-form {
+        padding-bottom: 50px;
+        padding-top: 65px;
+    }
+
+    .right-side{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}

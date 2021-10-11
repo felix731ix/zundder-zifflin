@@ -1,0 +1,155 @@
+@media only screen and (max-width:800px) {
+  /* START HEADER */
+  .header {
+    /* font-size: 2vw; */
+    padding: 15px 25px;
+    flex-direction: column;
+    position: relative;
+  }
+  .navbar-toogle {
+    display: flex !important;
+    z-index: 0;
+    align-items: center;
+    flex-direction: initial;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .logo {
+    margin: 0px;
+  }
+  #logo-zunder {
+    width: 20%;
+    height: auto;
+    padding-top: 10px;
+  }
+  .nav-bar {
+    background-color: #ececec;
+    flex-direction: column;
+  }
+  .left-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  .nav-bar-sub, .nav-bar-sub-aboutus {
+    margin: 10px;
+  }
+  .dropdown-content {
+    padding: 20px 0px;
+    width: max-content;
+  }
+  .dropdown-content-sub a {
+    width: max-content;
+  }
+  .register-button {
+    position: absolute;
+    padding-left: 55%;
+    padding-top: 3.2%;
+  }
+  .button a {
+    padding-top: 15%;
+    font-size: 5vw;
+  }
+  #viewbox-navbar-toogle {
+    width: 6%;
+    height: auto;
+    padding-top: 1%;
+  }
+  .nav-bar-sub-aboutus {
+    min-width: 100px;
+    height: 10px;
+  }
+  #drop-arrow {
+    width: 6px;
+    height: auto;
+    padding-left: 2px;
+  }
+  .dropdown-content {
+    width: 100px;
+  }
+  /* END HEADER */
+  /* NAV START */
+  .sidenav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    cursor: pointer;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    background-color: #045cb4;
+    padding-bottom: 20px;
+    margin-top: -50px;
+    margin-left: 0px;
+  }
+  .sidenav a {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #4ba0f0;
+  }
+  .sidenav-categories {
+    display: none;
+  }
+  .products-page {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* buat hilangin display : flex di nav bar ^ */
+    text-align: center;
+    /* margin-left: -10%; */
+  }
+  .product-all-page {
+    padding: 0 0;
+  }
+  .product-page-items {
+    flex-direction: column;
+  }
+  .product-page-item-list {
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .product-page-item-title {
+    font-size: 16px;
+  }
+  .product-page-item-price {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .product-page-item-description {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 12px;
+  }
+  .star {
+    font-size: 16px;
+    align-items: flex-end;
+    position: static;
+    top: 50%;
+    margin: 0px 1px;
+  }
+  .checked {
+    color: orange;
+  }
+  .dot {
+    text-align: center;
+    height: 10px;
+    width: 10px;
+  }
+  .dot:hover {
+    transition: 0.8s;
+    transform: scale(1.1);
+  }
+}

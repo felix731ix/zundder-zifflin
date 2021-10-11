@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../CSS/regis-mediascreen.css">
+    <script src="../Js/home-media-screen.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar-toogle" onclick="toogleNavbar()">
+            <svg viewBox="0 0 100 80" width="40" height="40" fill="#045cb4" id="viewbox-navbar-toogle">
+                <rect width="100" height="10"></rect>
+                <rect y="30" width="100" height="10"></rect>
+                <rect y="60" width="100" height="10"></rect>
+            </svg>
+        </div>
+        <div class="logo">
+            <a href="../HTML/home.html">
+                <img src="../Assets/Home Page/Logo.png" id="logo-zunder" alt="" width="100" height="50.84">
+            </a>
+        </div>
+        <!-- NAVBAR -->
+        <div class="nav-bar">
+            <!-- NAVIGATION MENU -->
+            <div class="left-menu" id="left-menu">
+                <!-- HOME BUTTON -->
+                <div class="nav-bar-sub">
+                    <a href="../HTML/home.html" id="btnHome">HOME</a>
+                </div>
+                <!-- PRODUCT BUTTON -->
+                <div class="nav-bar-sub">
+                    <a href="../HTML/product.html" id="btnProduct">PRODUCTS</a>
+                </div>
+                <!-- ABOUT US BUTTON -->
+                <div class="nav-bar-sub-aboutus">
+                    <a href="" class="btnDrop">ABOUT US</a>
+                    <!-- DROP ICON -->
+                    <div class="drop-icon">
+                        <img src="../Assets/Home Page/icons8-expand-arrow.png" id="drop-arrow" alt="">
+                    </div>
+                    <!-- DROP DOWN CONTENT -->
+                    <div class="dropdown-content">
+                        <!-- DROP DOWN CONTENT LIST -->
+                        <div class="dropdown-content-sub">
+                            <a href="../HTML/AboutUs.html">COMPANY PROFILE</a>
+                            <a href="../HTML/ContactUs.html">CONTACT US</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END NAVIGATION MENU -->
+        </div>
+        <!-- END REGISTER BUTTON -->
+        <!-- END NAVBAR -->
+    </div>
+    <!-- END HEADER -->
+    <!-- Register -->
+    <div class="register-content">
+        <div class="right-side">
+            <form class="register-form">
+                <p class="top-title">REGISTER</p>
+                <div class="register-form-body">
+                    <input type="text" id="name" class="form-input" placeholder="Name">
+                    <div id="label-error-name" class="lblError">
+                    </div>
+                </div>
+                <div class="register-form-body">
+                    <textarea type="text" id="address" class="form-input" placeholder="Address"></textarea>
+                    <div id="label-error-address" class="lblError">
+                    </div>
+                </div>
+                <div class="register-form-body">
+                    <input type="text" id="city" class="form-input" placeholder="City">
+                    <div id="label-error-city" class="lblError">
+                    </div>
+                </div>
+                <div class="register-form-body">
+                    <input type="email" id="email" class="form-input" placeholder="Email address">
+                    <div id="label-error-email" class="lblError">
+                    </div>
+                </div>
+                <div class="register-form-body">
+                    <input type="password" id="password" class="form-input" placeholder="Password">
+                    <div id="label-error-pass" class="lblError">
+                    </div>
+                </div>
+                <div class="register-form-body">
+                    <!-- <label class="register-form-lbl">Confirm Password</label> -->
+                    <input type="password" name="repass" id="repass" class="form-input" placeholder="Retype password">
+                    <div id="label-error-repass" class="lblError">
+                    </div>
+                </div>
+
+                <div class="register-form-body">
+                    <label class="register-form-lbl">Gender</label>
+                    <input type="radio" name="Gender" id="gender">Male
+                    <input type="radio" name="Gender" id="gender">Female
+                    <div id="label-error-gender" class="lblError">
+                    </div>
+                </div>
+               
+                <div class="register-form-term">
+                    <input type="checkbox" name="term" id="term-check">
+                    <label for="term-check">
+                        I agree to <a href="#" class="term-link">Terms of Service</a>
+                        and Privacy Policy.
+                    </label>
+                </div>
+                <div>
+                    <button class="register-form-button" id="register-button">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../Js/register.js"></script>
+</body>
+
+</html>
